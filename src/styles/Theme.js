@@ -13,6 +13,7 @@ export const theme = {
     rockShadow: "#9d1634",
     scissorsBorder: "#eb9f0e",
     scissorsShadow: "#c76c1b",
+    shadow: "#babfd4",
     spockBorder: "#3fb7cd",
     spockShadow: "#2d8dab",
     white: "#ffffff",

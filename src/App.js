@@ -1,6 +1,7 @@
 import { ThemeProvider } from "styled-components";
 
 //components
+import Board from "./Components/Board/Board";
 import Header from "./Components/Header/Header";
 import Rules from "./Components/Rules/Rules";
 
@@ -15,6 +16,7 @@ function App() {
       <GlobalStyles />
       <MainContainer>
         <Header />
+        <Board />
         <Rules />
       </MainContainer>
     </ThemeProvider>
