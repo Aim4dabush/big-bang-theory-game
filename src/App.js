@@ -2,6 +2,7 @@ import { ThemeProvider } from "styled-components";
 
 //components
 import Header from "./Components/Header/Header";
+import Rules from "./Components/Rules/Rules";
 
 //styles
 import { GlobalStyles } from "./styles/Global";
@@ -14,6 +15,7 @@ function App() {
       <GlobalStyles />
       <MainContainer>
         <Header />
+        <Rules />
       </MainContainer>
     </ThemeProvider>
   );
