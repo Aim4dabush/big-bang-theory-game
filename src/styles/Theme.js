@@ -6,6 +6,7 @@ export const theme = {
     grey: "#565468",
     lizardBorder: "#834ee3",
     lizardShadow: "#9d1634",
+    offWhite: "#f3f3f3",
     paperBorder: "#4664f4",
     paperShadow: "#2a45c2",
     rockBorder: "#db2e4d",
