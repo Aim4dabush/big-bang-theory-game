@@ -5,7 +5,7 @@ export const theme = {
     darkGrey: "#3b4262",
     grey: "#565468",
     lizardBorder: "#834ee3",
-    lizardShadow: "#9d1634",
+    lizardShadow: "#5f37a8",
     offWhite: "#f3f3f3",
     paperBorder: "#4664f4",
     paperShadow: "#2a45c2",

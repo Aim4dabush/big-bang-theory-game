@@ -9,7 +9,7 @@ const selectionSlice = createSlice({
       image: null,
       id: null,
     },
-    computer: {
+    house: {
       borderColor: null,
       shadowColor: null,
       image: null,
@@ -25,16 +25,17 @@ const selectionSlice = createSlice({
         image: action.payload.image,
         id: action.payload.id,
       };
-
-      state.isSelected = action.payload.isSelected;
     },
-    computerSelection(state, action) {
-      state.computer = {
+    houseSelection(state, action) {
+      state.house = {
         borderColor: action.payload.borderColor,
         shadowColor: action.payload.shadowColor,
         image: action.payload.image,
         id: action.payload.id,
       };
+    },
+    pieceIsSelected(state, action) {
+      state.isSelected = action.payload;
     },
   },
 });

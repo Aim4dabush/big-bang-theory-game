@@ -5,6 +5,7 @@ export const PlayAgainButton = styled.button`
   border: none;
   border-radius: 8px;
   color: ${({ theme }) => theme.colors.darkGrey};
+  cursor: pointer;
   font-size: 16px;
   font-weight: 600;
   padding: 15px 60px;
@@ -33,9 +34,9 @@ const SelectionButton = styled.button`
 `;
 
 export const Scissors = styled(SelectionButton)`
-  border: 34px solid ${({ theme }) => theme.colors.scissorBorder};
+  border: 34px solid ${({ theme }) => theme.colors.scissorsBorder};
   box-shadow: 0px 8px 1px ${({ theme }) => theme.colors.shadow} inset,
-    0px 8px 1px ${({ theme }) => theme.colors.scissorShadow};
+    0px 8px 1px ${({ theme }) => theme.colors.scissorsShadow};
   left: 45%;
   position: absolute;
   top: -25%;
